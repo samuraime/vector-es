@@ -1,0 +1,36 @@
+{
+  "name": "vector-2d",
+  "version": "0.1.0",
+  "description": "2d vector for math / physics",
+  "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuraime/vector-2d.git"
+  },
+  "keywords": [
+    "vector",
+    "2d",
+    "math",
+    "physics"
+  ],
+  "author": "SamuraiMe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuraime/vector-2d/issues"
+  },
+  "homepage": "https://github.com/samuraime/vector-2d#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "coveralls": "^3.0.4",
+    "jest": "^24.8.0"
+  }
+}
