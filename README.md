@@ -1,17 +1,17 @@
 # vector-2d [![CircleCI](https://circleci.com/gh/samuraime/vector-2d.svg?style=svg)](https://circleci.com/gh/samuraime/vector-2d) [![Coverage Status](https://coveralls.io/repos/github/samuraime/vector-2d/badge.svg?branch=master)](https://coveralls.io/github/samuraime/vector-2d?branch=master)
 
-a 2d vector `{ x, y }` for math / physics
+2d vector `{ x, y }` for math / physics
 
 ## Install
 
 ```sh
-npm install vector-2d
+npm install vecter
 ```
 
 ## Usage
 
 ```js
-import Vector from 'vector-2d';
+import Vector from 'vecter';
 
 const vector = new Vector(1, 2);
 vector.mult(2); // { x: 2, y 4}
@@ -20,7 +20,7 @@ vector.mult(2); // { x: 2, y 4}
 or
 
 ```js
-import { create, mult } from 'vector-2d';
+import { create, mult } from 'vecter';
 
 const vector = create(1, 2);
 const doubleVector = mult(vector, 2); // { x: 2, y 4}
