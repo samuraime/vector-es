@@ -5,25 +5,16 @@
 ## Install
 
 ```sh
-npm install vecter
+npm install vector-es
 ```
 
 ## Usage
 
 ```js
-import Vector from 'vecter';
+import Vector from 'vector-es';
 
 const vector = new Vector(1, 2);
 vector.mult(2); // { x: 2, y 4}
-```
-
-or
-
-```js
-import { create, mult } from 'vecter';
-
-const vector = create(1, 2);
-const doubleVector = mult(vector, 2); // { x: 2, y 4}
 ```
 
 ## API

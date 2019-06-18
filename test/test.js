@@ -1,4 +1,4 @@
-import Vector from '../src';
+import Vector from '..';
 
 describe('constrctor', () => {
   test('constructor', () => {

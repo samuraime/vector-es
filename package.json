@@ -1,13 +1,12 @@
 {
-  "name": "vecter",
-  "version": "0.1.0",
+  "name": "vector-es",
+  "version": "0.2.0",
   "description": "2d vector for math / physics",
-  "main": "lib/index.js",
+  "main": "index.js",
   "files": [
-    "/lib"
+    "index.js"
   ],
   "scripts": {
-    "build": "babel src -d lib",
     "test": "jest"
   },
   "repository": {
